@@ -1,0 +1,35 @@
+{
+  "name": "krixt-theme",
+  "displayName": "krixt-theme",
+  "description": "",
+  "publisher": "kimza",
+  "author": {
+    "name": "kimza"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimzaaa/krxit-theme"
+  },
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "galleryBanner": {
+    "color": "09131b",
+    "theme": "dark"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "krixt theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/krixt theme-color-theme.json"
+      }
+    ]
+  }
+}
+
